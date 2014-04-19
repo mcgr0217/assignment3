@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    width: 4.5rem;
+    height: auto;
+    float: left;
+    margin: 1.5rem 5%;
+}
+
+.social {
+    width: 15rem;
+    float: right;
+    margin: 1.5rem 5%;
+}
+
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: #da9f93;
+    text-align: center;
+}
+
+.nav-top li{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-top a, 
+.nav-top a:link
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 10%;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #f3d1a8;
+}
+
+.billboard {
+    background-image: url(../images/maindress.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 0;
+    overflow: hidden;
+}
+
+.billboard h1 {
+    margin: 16rem 0 0;
+    background-color: #f3d1a8;
+}
+
+.product {
+    background-image: url(../images/storefront.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 0;
+    overflow: hidden;
+}
+
+.product h1 {
+    margin: 16rem 0 0;
+    background-color: #f3d1a8;
+}
+
+article {
+    margin: 0;
+    padding: 1.5rem 5%;
+}
+
+h1 {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    font-size: 2rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 50%;
+}
+
+figure a,
+figurea:link,
+figure a:visited {
+    font-size: .875rem;
+    color: ;
+    text-decoration: none;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+
+.bucket2 {
+    overflow:  hidden;
+}
+
+.bucket2 figure {
+    float: left;
+    width: 45%; 
+    margin: 0 10% 1.5rem 0; 
+    padding: 0;
+}
+
+.bucket2 figure:nth-child(even) {
+ margin: 0;     
+}
+
+.bucket2 figcaption {
+    text-decoration: none; 
+    margin: 0; 
+    padding: .5rem 3%;
+    color: white; 
+    background-color: #da9f93; 
+    font-size: 1rem;
+    text-align: center;
+}
+   
+.company {
+    background-image: url(../images/company.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 0;
+    overflow: hidden;
+}
+
+.company h1 {
+    margin: 14rem 0 0;
+    background-color: #f3d1a8;
+}
+
+.social li {
+    width: 30%;
+    margin: 0 1.5rem 0;
+    padding: 0;
+}
+
+.social li:nth-child(even) {
+    margin: 3;
+}
+
+.social a {
+    display: block;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0; 
+}
+
+.one {
+    background-image: url(../images/facebook.jpg);  
+}
+
+.two {
+    background-image: url(../images/twitter.jpg);
+}
+
+.three {
+    background-image: url(../images/pinterest.jpg);
+}
+
+.bucket3 {
+    overflow: hidden;
+}
+
+footer {
+    background-color: #da9f93;
+    overflow: hidden;
+}
+
+.bucket3 figure {
+    float: left;
+    width: 45%; 
+    margin: 10% 1.5rem 0; 
+    padding: 0;
+}
+
+.bucket3 figure:nth-child(even) {
+ margin: 2;     
+}
+
+.bucket3 figcaption {
+    text-decoration: none; 
+    margin: 0; 
+    padding: .5rem 3%;
+    color: white; 
+    background-color: #da9f93; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+Details {
+    margin: 0 0 1.5rem;
+}
+
+dl {
+    margin: 0 0 1.5rem;
+}
+
+dt {
+    margin: 0 0 1.5rem;
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 1.5rem 10%;
+    color: red;
+}
+
+    
+    
+
