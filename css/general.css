@@ -17,7 +17,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
+    font-family: 'Tienne', serif;
     font-size: 100%;
 }
 
@@ -39,12 +39,6 @@ header {
     width: 4.5rem;
     height: auto;
     float: left;
-    margin: 1.5rem 5%;
-}
-
-.social {
-    width: 15rem;
-    float: right;
     margin: 1.5rem 5%;
 }
 
@@ -74,6 +68,7 @@ header {
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
+    font-family: 'Tienne', serif;
 }
 
 .selected {
@@ -105,18 +100,31 @@ header {
 
 .product h1 {
     margin: 16rem 0 0;
-    background-color: #f3d1a8;
+    background-color: #da9f93;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+sup {
+    font-size: 1rem;
 }
 
 article {
     margin: 0;
-    padding: 1.5rem 5%;
+    padding: 1.5rem 5% 5%;
 }
 
 h1 {
     margin: 0 0 1.5rem;
     padding: 0;
     font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-family: 'Nova Square', cursive;
 }
 
 figure {
@@ -132,23 +140,8 @@ figure a:visited {
     text-decoration: none;
 }
 
-.nav-bottom ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-bottom a,
-.nav-bottom a:link,
-.nav-bottom a:visited {
-    color: white;
-    text-decoration: none;
-    font-size: .875rem;
-    line-height: 1.5rem;
-}
-
 .bucket2 {
-    overflow:  hidden;
+    overflow: hidden;
 }
 
 .bucket2 figure {
@@ -182,89 +175,80 @@ figure a:visited {
 }
 
 .company h1 {
-    margin: 14rem 0 0;
-    background-color: #f3d1a8;
+    margin: 16rem 0 0;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #da9f93;
+}
+
+.social {
+    overflow: hidden;
+    margin: 0;
+    padding: 0 5%;
 }
 
 .social li {
-    width: 30%;
-    margin: 0 1.5rem 0;
+    float: left;
+    list-style-type: none;
+    width: 4rem;
+    margin: 2rem 6% 1rem;
     padding: 0;
 }
 
-.social li:nth-child(even) {
-    margin: 3;
-}
-
-.social a {
-    display: block;
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 100% 0 0; 
-}
-
-.one {
-    background-image: url(../images/facebook.jpg);  
-}
-
-.two {
-    background-image: url(../images/twitter.jpg);
-}
-
-.three {
-    background-image: url(../images/pinterest.jpg);
+.social li:last-child {
+    margin-right: 3;
 }
 
 .bucket3 {
     overflow: hidden;
 }
 
-footer {
-    background-color: #da9f93;
+.bucket3 {
     overflow: hidden;
-}
-
-.bucket3 figure {
-    float: left;
-    width: 45%; 
-    margin: 10% 1.5rem 0; 
+    margin: 0 5% 0 1rem;
     padding: 0;
 }
 
-.bucket3 figure:nth-child(even) {
- margin: 2;     
+.bucket3 img {
+    float: left;
+    width: 80%;
+    overflow: hidden;
 }
 
 .bucket3 figcaption {
-    text-decoration: none; 
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: .5rem 0 1rem;
+    font-size: 1.5rem;
+    color: #778899;
+    background-color: white;
+}
+
+footer {
+    background-color: #da9f93;
+    float: center;
     margin: 0; 
-    padding: .5rem 3%;
-    color: white; 
-    background-color: #da9f93; 
-    font-size: 1rem;
+    padding: 2rem 3% 4rem;
+    overflow: hidden;
+}
+
+footer p {
     text-align: center;
 }
 
-Details {
+details summary::-webkit-details-marker {
+    background: #da9f93;
+    color: #f3d1a8;
+    font-size: 100%;
+}
+
+details {
     margin: 0 0 1.5rem;
 }
-
-dl {
-    margin: 0 0 1.5rem;
-}
-
-dt {
-    margin: 0 0 1.5rem;
-    font-weight: bold;
-}
-
-dd {
-    margin: 0 0 1.5rem 10%;
-    color: red;
-}
-
+    
+    
     
     
 
