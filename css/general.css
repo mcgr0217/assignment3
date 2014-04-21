@@ -66,9 +66,8 @@ header {
     margin: 0;
     padding: 1rem 10%;
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
-    font-family: 'Tienne', serif;
 }
 
 .selected {
@@ -85,9 +84,12 @@ header {
 }
 
 .billboard h1 {
-    margin: 16rem 0 0;
+    margin: 14rem 0 0;
     background-color: #f3d1a8;
     text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 10%;
 }
 
 .product {
@@ -95,16 +97,15 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin: 0 0;
     overflow: hidden;
 }
 
 .product h1 {
     margin: 16rem 0 0;
     background-color: #da9f93;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    text-decoration: none;
+    color: white;
 }
 
 sup {
@@ -118,7 +119,7 @@ article {
 
 h1 {
     margin: 0 0 1.5rem;
-    padding: 0;
+    padding: 1rem 10%;
     font-size: 2rem;
 }
 
@@ -134,8 +135,7 @@ figure {
 figure a,
 figurea:link,
 figure a:visited {
-    font-size: .875rem;
-    color: ;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -176,7 +176,7 @@ figure a:visited {
 .company h1 {
     margin: 16rem 0 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #da9f93;
 }
 
@@ -244,7 +244,11 @@ details summary::-webkit-details-marker {
 details {
     margin: 0 0 1.5rem;
 }
-    
+
+p {
+    font-family: 'Judson', serif;
+    font-size: 1rem;
+}
     
     
     
