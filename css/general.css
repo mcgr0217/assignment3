@@ -195,7 +195,7 @@ figure a:visited {
 }
 
 .social li:last-child {
-    margin-right: 3;
+    margin-right: 0;
 }
 
 .bucket3 {
@@ -225,7 +225,6 @@ figure a:visited {
 
 footer {
     background-color: #da9f93;
-    float: center;
     margin: 0; 
     padding: .5rem 0 1rem;
     overflow: hidden;
