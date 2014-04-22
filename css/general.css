@@ -35,7 +35,7 @@ header {
 }
 
 .logo {
-    width: 6rem;
+    width: 25%;
     height: auto;
     margin: 1rem auto;
     position: static;
@@ -67,6 +67,7 @@ header {
     color: white;
     font-size: 1.75rem;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .selected {
@@ -97,7 +98,6 @@ header {
     background-position: center;
     background-size: 100%;
     overflow: hidden;
-    position: static;
 }
 
 .product h1 {
@@ -176,6 +176,7 @@ figure a:visited {
     background-size: 100%;
     margin: 0 0;
     overflow: hidden;
+    width: 100%;
 }
 
 .company h1 {
@@ -252,6 +253,7 @@ details {
 
 p {
     font-size: 1rem;
+    line-height: 1.5rem;
 }
     
     
