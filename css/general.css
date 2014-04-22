@@ -67,7 +67,7 @@ header {
     display: inline-block;
     margin: 0;
     padding: 1.25rem 10%;
-    color: white;
+    color: black;
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -89,7 +89,7 @@ header {
     margin: 13rem 0 0;
     background-color: #f3d1a8;
     text-align: center;
-    color: #da9f93;
+    color: white;
     font-weight: 200;
     font-size: 1.25rem;
     padding: 1rem 10%;
@@ -111,7 +111,7 @@ header {
     text-align: center;
     font-family: 'Domine', serif;
     font-weight: 200;
-    color: #da9f93;
+    color: white;
 }
 
 sup {
@@ -192,7 +192,7 @@ figure a:visited {
     text-align: center;
     font-size: 1.25rem;
     font-weight: 200;
-    color: #da9f93;
+    color: white;
     background-color: #f3d1a8;
     font-family: 'Domine', serif;
 }
