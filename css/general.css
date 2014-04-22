@@ -64,6 +64,7 @@ header {
 .nav-top a:link
 .nav-top a:visited {
     display: inline-block;
+    margin: 0;
     padding: 1rem 10%;
     color: white;
     font-size: 1.5rem;
