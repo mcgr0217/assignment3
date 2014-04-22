@@ -17,7 +17,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    font-family: 'Archivo Narrow', sans-serif;
     font-size: 100%;
 }
 
@@ -50,8 +49,6 @@ header {
     margin: 0;
     padding: 0;
     background-color: #da9f93;
-    font-family: 'Judson', serif;
-    font-family: ;
     text-align: center;
 }
 
@@ -100,10 +97,11 @@ header {
     background-position: center;
     background-size: 100%;
     overflow: hidden;
+    position: static;
 }
 
 .product h1 {
-    margin: 16rem 0 0;
+    margin: 14rem 0 0;
     background-color: #da9f93;
     font-size: 1.5rem;
     text-align: center;
@@ -130,7 +128,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Judson', serif;
     font-size: 1rem;
     margin: 1.rem 5%;
 }
@@ -182,7 +179,7 @@ figure a:visited {
 }
 
 .company h1 {
-    margin: 16rem 0 0;
+    margin: 14rem 0 0;
     text-align: center;
     font-size: 1.5rem;
     background-color: #da9f93;
@@ -192,13 +189,14 @@ figure a:visited {
     overflow: hidden;
     margin: 0;
     padding: 0 5%;
+    position: static;
 }
 
 .social li {
     float: left;
+    width: 22%;
     list-style-type: none;
-    width: 4rem;
-    margin: 2rem 6% 1rem;
+    margin: 3rem 15% 1rem 0;
     padding: 0;
 }
 
@@ -253,7 +251,6 @@ details {
 }
 
 p {
-    font-family: 'Judson', serif;
     font-size: 1rem;
 }
     
