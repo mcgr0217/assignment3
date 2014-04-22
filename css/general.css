@@ -57,7 +57,7 @@ header {
     margin: 0;
     padding: 0;
     display: inline;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
 
@@ -93,7 +93,7 @@ header {
     font-weight: 200;
     font-size: 1.25rem;
     padding: 1rem 10%;
-    font-family: 'Domine', serif;
+    font-family: 'Domine', 'Book Antiqua', Palatino, serif;
 }
 
 .product {
@@ -109,7 +109,7 @@ header {
     background-color: #f3d1a8;
     font-size: 1.25rem;
     text-align: center;
-    font-family: 'Domine', serif;
+    font-family: 'Domine', 'Book Antiqua', Palatino, serif;
     font-weight: 200;
     color: white;
 }
@@ -131,12 +131,13 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 h3 {
     font-size: 1rem;
-    margin: 1.rem 5%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
+    margin: 1rem 0;
 }
 
 figure {
@@ -194,7 +195,7 @@ figure a:visited {
     font-weight: 200;
     color: white;
     background-color: #f3d1a8;
-    font-family: 'Domine', serif;
+    font-family: 'Domine', 'Book Antiqua', Palatino, serif;
 }
 
 .social {
@@ -218,7 +219,7 @@ figure a:visited {
 
 .bucket3 {
     overflow: hidden;
-    margin: 0 5% 0 1rem;
+    margin: 0;
     padding: 0;
 }
 
@@ -234,8 +235,9 @@ figure a:visited {
     margin: 0;
     padding: .5rem 1rem;
     font-size: 1.2rem;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: #f3d1a8;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 footer {
@@ -249,18 +251,8 @@ footer p {
     text-align: center;
 }
 
-details summary::-webkit-details-marker {
-    background: #da9f93;
-    color: #f3d1a8;
-    font-size: 100%;
-}
-
-details {
-    margin: 0 0 1.5rem;
-}
-
 p {
     font-size: 1rem;
     line-height: 1.5rem;
-    font-family: 'Domine', serif;
+    font-family: 'Domine', 'Book Antiqua', Palatino, serif;
 }
