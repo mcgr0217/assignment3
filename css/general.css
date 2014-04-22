@@ -100,7 +100,7 @@ header {
     background-image: url(../images/storefront.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: 120%;
     overflow: hidden;
 }
 
@@ -181,7 +181,7 @@ figure a:visited {
     background-image: url(../images/company.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: 120%;
     margin: 0 0;
     overflow: hidden;
     width: 100%;
