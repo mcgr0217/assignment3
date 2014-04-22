@@ -84,7 +84,7 @@ header {
 }
 
 .billboard h1 {
-    margin: 14rem 0 0;
+    margin: 13rem 0 0;
     background-color: #f3d1a8;
     text-align: center;
     color: white;
@@ -106,6 +106,7 @@ header {
     background-color: #da9f93;
     font-size: 1.5rem;
     text-align: center;
+    font-family: 'Domine', serif;
     color: black
 }
 
@@ -126,6 +127,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -147,6 +149,7 @@ figure a:visited {
 
 .bucket2 {
     overflow: hidden;
+    margin-top: 2rem;
 }
 
 .bucket2 figure {
@@ -185,6 +188,7 @@ figure a:visited {
     text-align: center;
     font-size: 1.5rem;
     background-color: #da9f93;
+    font-family: 'Domine', serif;
 }
 
 .social {
@@ -214,7 +218,7 @@ figure a:visited {
 
 .bucket3 img {
     float: left;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -223,8 +227,9 @@ figure a:visited {
     width: 100%;
     margin: 0;
     padding: .5rem 1rem;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
