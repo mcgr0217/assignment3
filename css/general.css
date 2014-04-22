@@ -40,16 +40,16 @@ header {
     height: auto;
     margin: 1rem auto;
     position: static;
+    padding: .5rem;
 }
 
 .nav-top {
-    clear: both;
+    background-color: #da9f93;
 }
 
 .nav-top ul {
     margin: 0;
     padding: 0;
-    background-color: #da9f93;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ header {
 .nav-top a:visited {
     display: inline-block;
     margin: 0;
-    padding: 1rem 10%;
+    padding: 1.25rem 10%;
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
@@ -118,7 +118,7 @@ sup {
 
 article {
     margin: 0;
-    padding: 1.5rem 5% 5%;
+    padding: .25rem 5%;
 }
 
 h1 {
