@@ -58,7 +58,7 @@ header {
     padding: 0;
     display: inline;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .nav-top a, 
@@ -89,8 +89,9 @@ header {
     margin: 13rem 0 0;
     background-color: #f3d1a8;
     text-align: center;
-    color: white;
-    font-size: 1.5rem;
+    color: #da9f93;
+    font-weight: 200;
+    font-size: 1.25rem;
     padding: 1rem 10%;
     font-family: 'Domine', serif;
 }
@@ -105,11 +106,12 @@ header {
 
 .product h1 {
     margin: 14rem 0 0;
-    background-color: #da9f93;
-    font-size: 1.5rem;
+    background-color: #f3d1a8;
+    font-size: 1.25rem;
     text-align: center;
     font-family: 'Domine', serif;
-    color: black
+    font-weight: 200;
+    color: #da9f93;
 }
 
 sup {
@@ -188,8 +190,10 @@ figure a:visited {
 .company h1 {
     margin: 14rem 0 0;
     text-align: center;
-    font-size: 1.5rem;
-    background-color: #da9f93;
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #da9f93;
+    background-color: #f3d1a8;
     font-family: 'Domine', serif;
 }
 
